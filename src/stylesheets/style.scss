@@ -1,31 +1,17 @@
 @import '~normalize.css/normalize.css';
+
+@import './color_scheme.scss';
+@import '~bootstrap/scss/bootstrap.scss';
+@import '@fortawesome/fontawesome-free/css/all.min.css';
 @import './base';
 @import './media';
 @import './fonts';
-
+@import './icons.scss';
+@import './text.scss';
+@import './images.scss';
 // custom styles
 
-html {
-  height: 100%;
-}
-
+html,
 body {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  min-height: 100%;
-}
-
-a {
-  position: relative;
-  background-position: center;
-  background-repeat: no-repeat;
-  display: inline-block;
-
-  img {
-    display: inline-block;
-    vertical-align: middle;
-    width: 80px;
-  }
+  height: 100%;
 }

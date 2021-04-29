@@ -1,12 +1,14 @@
 {
-  "name": "webpack-es6-sass-boilerplate",
+  "name": "ulises214_portfolio",
   "version": "0.2.0",
-  "description": "A minimalistic webpack 4 based boilerplate for building web apps",
-  "author": "Vadim Markov",
+  "description": "Mi portafolio presentado en versión web",
+  "author": "Ulises Ramírez Martínez",
   "license": "MIT",
+  "private": true,
+  "homepage": "https://ulises214.github.io/me/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/vadimmarkov/webpack-es6-sass-boilerplate.git"
+    "url": "https://github.com/ulises214/me.git"
   },
   "scripts": {
     "prestart": "rimraf build && rimraf ./stats.json",
@@ -44,6 +46,7 @@
     "mini-css-extract-plugin": "^1.0.0",
     "node-sass": "^4.14.1",
     "normalize.css": "^8.0.1",
+    "postcss": "^8.1.1",
     "postcss-flexbugs-fixes": "^4.2.1",
     "postcss-loader": "^4.0.4",
     "prettier": "^2.1.2",
@@ -62,8 +65,7 @@
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0",
     "webpack-merge": "^5.2.0",
-    "webpack-stats-plugin": "0.3.2",
-    "postcss": "^8.1.1"
+    "webpack-stats-plugin": "0.3.2"
   },
   "browserslist": {
     "production": [
@@ -93,5 +95,12 @@
       "stylelint --fix",
       "git add"
     ]
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "bootstrap": "^4.6.0",
+    "bootswatch": "^4.6.0",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1"
   }
 }

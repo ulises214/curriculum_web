@@ -1,0 +1,32 @@
+.w__brand__icon {
+  width: 2rem !important;
+  height: 2rem !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+
+  img {
+    width: 1rem;
+    height: 1rem;
+  }
+
+  &-fb {
+    background-color: #1877f2;
+  }
+  &-gh {
+    background-color: #181717;
+  }
+  &-ig {
+    background-color: #e4405f;
+  }
+  &-in {
+    background-color: #0a66c2;
+  }
+  &-sf {
+    background-color: #1ed760;
+  }
+  &-tw {
+    background-color: #1da1f2;
+  }
+}
