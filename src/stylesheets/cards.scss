@@ -1,0 +1,16 @@
+.w__card-body {
+  position: relative;
+  &__icon {
+    $icon-size: 4rem;
+    position: absolute;
+    height: $icon-size;
+    width: $icon-size;
+    top: -$icon-size / 2;
+    left: calc(50% - 2rem);
+    border-radius: 100%;
+    border: 0.2rem solid #fff;
+  }
+  & > .card-title {
+    padding-top: 1rem;
+  }
+}
