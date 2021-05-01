@@ -1,8 +1,8 @@
 {
-  "app.css": "stylesheets/app.2f8f3a1d.css",
-  "app.css.map": "stylesheets/app.2f8f3a1d.css.map",
-  "app.js": "scripts/app.2f8f3a1d.js",
-  "app.js.map": "scripts/app.2f8f3a1d.js.map",
+  "app.css": "stylesheets/app.6c08031b.css",
+  "app.css.map": "stylesheets/app.6c08031b.css.map",
+  "app.js": "scripts/app.6c08031b.js",
+  "app.js.map": "scripts/app.6c08031b.js.map",
   "fonts/Roboto-Light.woff": "fonts/Roboto-Light.0ee1beee.woff",
   "fonts/fa-brands-400.eot": "fonts/fa-brands-400.89a52ae1.eot",
   "fonts/fa-brands-400.ttf": "fonts/fa-brands-400.9e138496.ttf",
@@ -25,5 +25,7 @@
   "images/linkedin.svg": "images/linkedin.1085692f.svg",
   "images/me.jpg": "images/me.ffa50f25.jpg",
   "images/spotify.svg": "images/spotify.199497f5.svg",
-  "images/twitter.svg": "images/twitter.4e85ce1b.svg"
+  "images/twitter.svg": "images/twitter.4e85ce1b.svg",
+  "images/weather_cover.png": "images/weather_cover.4d53d2aa.png",
+  "images/weather_icon.png": "images/weather_icon.8fb58891.png"
 }
