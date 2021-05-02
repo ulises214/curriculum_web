@@ -1,5 +1,15 @@
 .w__text-with-line {
   position: relative;
+  &::after {
+    top: -0.5rem;
+    left: 2.5rem;
+    content: '';
+    position: absolute;
+    background-color: $danger;
+    width: 8rem;
+    height: 0.4rem;
+    border-radius: 2rem;
+  }
   &::before {
     top: -0.5rem;
     content: '';
@@ -17,9 +27,12 @@ ul {
   list-style: none;
   padding-right: 0.25rem;
 }
-// h2 {
-//   font-size: 1.75rem;
-// }
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 1.75rem;
+}
 h3 {
   font-size: 1.5rem;
 }
