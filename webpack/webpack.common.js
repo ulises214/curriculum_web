@@ -1,6 +1,7 @@
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const paths = require('./paths');
+const publicPath = process.argv.includes('--mode=production') ? '/me/' : '/';
 
 module.exports = {
   context: paths.src,
@@ -8,6 +9,7 @@ module.exports = {
     app: `./scripts/index.js`,
   },
   output: {
+    publicPath: publicPath,
     filename: `scripts/[name].[hash:8].js`,
     path: paths.build,
   },
@@ -55,7 +57,7 @@ module.exports = {
         use: {
           loader: 'file-loader',
           options: {
-            publicPath: '/fonts',
+            publicPath: publicPath + 'fonts',
             outputPath: 'fonts',
             name: '[name].[hash:8].[ext]',
           },
@@ -66,7 +68,7 @@ module.exports = {
         use: {
           loader: 'file-loader',
           options: {
-            publicPath: '/images',
+            publicPath: publicPath + 'images',
             outputPath: 'images',
             name: '[name].[hash:8].[ext]',
           },

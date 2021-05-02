@@ -8,7 +8,6 @@ module.exports = (env, argv) => {
 
   process.env.BABEL_ENV = argv.mode;
   process.env.NODE_ENV = argv.mode;
-
   const envConfig = require(`./webpack/webpack.${argv.mode}.js`);
 
   return merge(commonConfig, envConfig);
