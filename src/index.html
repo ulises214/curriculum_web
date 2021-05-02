@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <title>My portfolio</title>
-    <meta name="description" content="" />
+    <meta name="description" content="Learn more about me" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
@@ -14,8 +14,10 @@
         Learn more: https://developers.facebook.com/docs/sharing/webmasters -->
     <meta property="og:url" content="https://ulises214.github.io/me/" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Ulises Ramírez" />
-    <meta property="og:image" content="imges/profile.jpeg" />
+    <meta property="og:title" content="Ulises Ramírez portfolio" />
+    <meta property="og:image" content="./images/me.jpg" />
+    <meta property="og:description" content="Learn more about me" />
+
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
@@ -25,34 +27,36 @@
     <meta name="theme-color" content="#ffffff" />
   </head>
   <body class="bg-light pb-4">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="#">
-      <a class="navbar-brand" href="#">
-        <img src="./images/favicon.svg" alt="Icono de pagina" height="32" />
-      </a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarText"
-        aria-controls="navbarText"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarText">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#proyects">Proyects</a>
-          </li>
-          <!-- <li class="nav-item">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="./images/favicon.svg" alt="Icono de pagina" height="32" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">Projects</a>
+            </li>
+            <!-- <li class="nav-item">
             <a class="nav-link" href="#con">Contacto</a>
           </li> -->
-        </ul>
-        <button type="button" class="btn btn-md btn-primary">Descargar curriculum</button>
+          </ul>
+          <button type="button" class="btn btn-md btn-danger">Descargar curriculum</button>
+        </div>
       </div>
     </nav>
     <div class="row container m-auto pt-5">
@@ -261,8 +265,8 @@
         </article>
       </section>
     </div>
-    <div class="container m-auto" id="proyects">
-      <h2>My proyects</h2>
+    <div class="container m-auto" id="projects">
+      <h2>My projects</h2>
       <div class="d-grid">
         <div class="card mb-4">
           <img src="./images/covers/weather_cover.png" alt="Weather app cover" />
@@ -276,7 +280,7 @@
             <p class="card-text">
               A basic weather application developed in flutter using the OpenWeatherMap api
             </p>
-            <a href="proyects.html#weather" class="btn btn-primary">View more</a>
+            <a href="projects.html#weather" class="btn btn-primary">View more</a>
           </div>
         </div>
       </div>
